@@ -1,5 +1,12 @@
 # MapReduce and Spark Implementation
 
+## Overview
+1. Given m documents, compute the term-term relevance using MapReduce algorithm and Spark implementation. 
+2. Input a text file, each line represents a document. 
+3. Poutput a list of term-term paris sorted by their similarity descending. 
+4. Compute Term Frequency - inverse Document Frenquency (TF-IDF) for each term. 
+5. Compute and sort term-term relevance between a query term and all terms associated with the TF-IDF matrix. 
+
 ## Run
 ### Step 1:
 - In line 22, change the file name 'project2_test.txt' to the file name that you named. 
